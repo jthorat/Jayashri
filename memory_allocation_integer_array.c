@@ -2,9 +2,9 @@
 #include<stdlib.h>
 int main()
 {
-int n,*p;
-printf("enter n value\n");
-scanf("%d",&n);
-p=(int*)malloc(n*sizeof(int));
-printf("allocated memory:%d\n",p);
+  int n,*p;
+  printf("enter n value\n");
+  scanf("%d",&n);
+  p=(int*)malloc(n*sizeof(int));
+  printf("allocated memory:%d\n",p);
 }
