@@ -1,10 +1,14 @@
+/* Write a function to find Nth-to-last-node of a singly linked list */
+
 #include<stdio.h>
 #include<stdlib.h>
+
 struct node
 {	
 	int data;
 	struct node*next;
 };
+
 void push(struct node**head,int newdata)
 {
 	struct node*newnode;
@@ -13,6 +17,7 @@ void push(struct node**head,int newdata)
 	newnode->next=(*head);
 	(*head)=newnode;
 }
+
 int nth_last_node(struct node* head,int index)
 {
 	struct node* current=head;
@@ -25,6 +30,7 @@ int nth_last_node(struct node* head,int index)
 		current=current->next;
 	}
 }
+
 int main()
 {
 	struct node*head=NULL;
