@@ -1,3 +1,5 @@
+/* Write a function to delete n-th node from reverse of a singly linked list.*/
+
 #include<stdio.h>
 #include<stdlib.h>
 
