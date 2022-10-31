@@ -1,3 +1,5 @@
+/* File IO:Two files are on disk. One file has integers and the other has words/text. Write a program to merge the two files into a single file*/
+
 #include<stdio.h>
 #include<stdlib.h>
 
