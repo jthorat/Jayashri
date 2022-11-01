@@ -1,3 +1,4 @@
+# Example for break statement
 for letters in 'waverock':
     print(letters)
     if letters=='e':
