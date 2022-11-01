@@ -5,10 +5,12 @@
 
 struct node
 {
+	// link list node
 	int data;
 	struct node*next;
 };
 
+/* function to insert a node at the beginning of the linked list */
 
 struct node* create(struct node* head,int x)
 {
@@ -29,6 +31,7 @@ struct node* create(struct node* head,int x)
 	return head;
 }
 
+/* function to delete the nth node of the link list */
 
 struct node*remove_nth_from_node(struct node* head,int b)
 {
@@ -65,6 +68,7 @@ struct node*remove_nth_from_node(struct node* head,int b)
 	}
 }
 
+/* function to print nodes in a given linked list */
 
 void display(struct node* head)
 {
@@ -78,12 +82,12 @@ void display(struct node* head)
 }
 
 
-
+//main program
 int main()
 {
 	int n;
 	struct node* head=NULL;
-	head=create(head,1);
+	head=create(head,1);     
 	head=create(head, 15);
 	head=create(head, 10);
 	head=create(head, 12);
