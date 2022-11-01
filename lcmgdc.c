@@ -3,12 +3,13 @@
 #include<stdio.h>
 int main()
 {
-    int n1,n2,x,y,gcd,lcm;
-    printf("enter the n1 n2 nos\n");
-    scanf("%d%d",&n1,&n2);
+    //variable declarition
+    int n1,n2,x,y,gcd,lcm;       
+    printf("enter the n1 n2 nos\n");   //messg for the user
+    scanf("%d%d",&n1,&n2);             // take input from the user 
     x=n1;
     y=n2;
-    while(n1!=n2)
+    while(n1!=n2)                      //logic of finding GCD  
     {
         if(n1>n2)
         {
@@ -19,8 +20,8 @@ int main()
             n2=n2-n1;
         }
     }
-    printf("GCD:%d\n",n1);
+    printf("GCD:%d\n",n1);            // print the GCD number
     gcd=n1;
-    lcm=(x*y)/gcd;
-    printf("LCM:%d\n",lcm);
+    lcm=(x*y)/gcd;                    //logic of the finding LCM number
+    printf("LCM:%d\n",lcm);           // print the LCM number
 }
