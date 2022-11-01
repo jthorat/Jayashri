@@ -4,9 +4,10 @@
 #include<stdlib.h>
 int main()
 {
+    //variable declarition
     int n,*p;
-    printf("enter n value\n");
-    scanf("%d",&n);
-    p=(int*)malloc(n*sizeof(int));
-    printf("allocated memory:%d\n",p);
+    printf("enter n value\n");         //messg for the user
+    scanf("%d",&n);                    //take inputfrom the user
+    p=(int*)malloc(n*sizeof(int));     // logic of dynamic memory allocation
+    printf("allocated memory:%d\n",p); // print the memory allocation  
 }
