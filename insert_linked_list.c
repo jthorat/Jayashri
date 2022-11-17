@@ -42,7 +42,7 @@ int main()
     }
 }
 
-
+/* function to insert a node at the beginning of the linked list */
 struct student* add_first(struct student* head)
 {
     struct student*newnode=NULL,*temp=NULL;
@@ -64,6 +64,7 @@ struct student* add_first(struct student* head)
 }
 
 
+/* function to insert a node at the ending of the linked list */
 struct student* add_last(struct student* head)
 {
     struct student*newnode=NULL,*temp=NULL;
@@ -95,7 +96,7 @@ struct student* add_last(struct student* head)
      return head;
 }
 
-
+/* function to insert a node at the given location of the linked list */
 struct student* add_given_location(struct student*head)
 {
     int pos,i;
