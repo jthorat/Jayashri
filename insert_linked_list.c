@@ -17,6 +17,7 @@ struct student
     struct student*link;
 };
 
+
 // main program
 int main()
 {
@@ -41,6 +42,7 @@ int main()
         }
     }
 }
+
 
 /* function to insert a node at the beginning of the linked list */
 struct student* add_first(struct student* head)
@@ -96,6 +98,7 @@ struct student* add_last(struct student* head)
      return head;
 }
 
+
 /* function to insert a node at the given location of the linked list */
 struct student* add_given_location(struct student*head)
 {
@@ -127,6 +130,7 @@ struct student* add_given_location(struct student*head)
 }
 
 
+/* function to print nodes in a given linked list */
 void display(struct student* head)
 {
     if(head==NULL)
