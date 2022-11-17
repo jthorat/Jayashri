@@ -1,11 +1,11 @@
 /* Write a function to convert string to integer,equivalent of atoi().*/
-/* Write a function to convertstring to integer ,equivalent of atoi().*/
 
 #include<stdio.h>             
 #include<stdlib.h>
 
 //function declarition
 int a2i(char*); 
+
 // command line argument
 int main(int argc,char* argv[])                     
 {
@@ -23,6 +23,7 @@ int a2i(char* p)
     //variable declarition
     int i;
     int n=0;
+    
     // logic of the atoi 
     for(i=0;p[i];i++)
     {
