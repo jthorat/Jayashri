@@ -1,3 +1,4 @@
+#program to demonstrate continue statement in python
 for letters in 'waverock':
     #print(letters,end="")
     if letters=='e':
