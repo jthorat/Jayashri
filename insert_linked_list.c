@@ -2,11 +2,14 @@
 
 #include<stdio.h>
 #include<stdlib.h>
+
+// Function declarition
 struct student* add_first(struct student* head);
 struct student* add_last(struct student* head);
 struct student* add_given_location(struct student*head);
 void display(struct student*head);
 
+//structure declarition
 struct student
 {
     int roll;
@@ -14,7 +17,7 @@ struct student
     struct student*link;
 };
 
-
+// main program
 int main()
 {
     struct student*head=NULL;
