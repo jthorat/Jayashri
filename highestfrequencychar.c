@@ -6,15 +6,22 @@ int main()
     //variable declaration
     int i,count=0;
     char ch;
-    printf("enter the charactor\n");                   // messg for the user
-    scanf("%c",&ch);                                   //  take the input from the user
+    // messg for the user
+    printf("enter the charactor\n");                   
+    //  take the input from the user
+    scanf("%c",&ch);                                   
     char a[10];
-    printf("enter the string\n");                      // messg for the user 
-    scanf("%s",a);                                     // take the input from the user
+    // messg for the user
+    printf("enter the string\n");                       
+    // take the input from the user
+    scanf("%s",a); 
+    // logic of the compare the user given char in the string
     for(i=0;a[i];i++)
     {
-        if(a[i]==ch)                                   // compare the user given char in the string
-        count++;                                       //count user given char how many times and stored in count variable
+        if(a[i]==ch)                                   
+        //count user given char how many times and stored in count variable
+        count++;                                       
     }
-    printf("highest frequency charactor: %d\n",count); // print the output
+    // print the output
+    printf("highest frequency charactor: %d\n",count); 
 }
