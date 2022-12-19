@@ -17,7 +17,7 @@ void* even()
 		{
 			printf("e=%d\n",min);
 			min++;
-			//       sleep(1);
+			sleep(1);
 		}
 	}
 }
@@ -31,7 +31,7 @@ void* odd()
 		{
 			printf("o=%d\n",min);
 			min++;
-			//         sleep(1);
+			sleep(1);
 		}
 	}
 }
@@ -67,7 +67,6 @@ int main(int argc, char *argv[])
 	{
 		return 6;
 	}
-
 
 	return 0;
 }
