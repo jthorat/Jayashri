@@ -13,7 +13,7 @@
 int main(int argc,char * argv[])
 {
 	//variable declarition
-	int sockfd,portno,n=10;
+	int sockfd,portno,n;
 	struct sockaddr_in server_addr;
 	char buf[1024];
 
